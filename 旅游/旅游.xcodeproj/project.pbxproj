@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF17799E1C8A7D460030E332 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF17799D1C8A7D460030E332 /* MyViewController.m */; };
+		CF1779A41C8A96C70030E332 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1779A31C8A96C70030E332 /* MyTableView.m */; };
+		CF1779A71C8A9F160030E332 /* DestnationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1779A61C8A9F160030E332 /* DestnationViewController.m */; };
+		CF1779AA1C8AA3D60030E332 /* FirstViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1779A91C8AA3D60030E332 /* FirstViewController2.m */; };
+		CF1779AD1C8AA5E90030E332 /* MyViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1779AC1C8AA5E90030E332 /* MyViewController2.m */; };
+		CF7402701C89B48600A6AF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF74026F1C89B48600A6AF17 /* main.m */; };
+		CF7402731C89B48600A6AF17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7402721C89B48600A6AF17 /* AppDelegate.m */; };
+		CF7402761C89B48600A6AF17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7402751C89B48600A6AF17 /* ViewController.m */; };
+		CF7402791C89B48600A6AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7402771C89B48600A6AF17 /* Main.storyboard */; };
+		CF74027B1C89B48600A6AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF74027A1C89B48600A6AF17 /* Assets.xcassets */; };
+		CF74027E1C89B48600A6AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF74027C1C89B48600A6AF17 /* LaunchScreen.storyboard */; };
+		CF7402891C89B48600A6AF17 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7402881C89B48600A6AF17 /* __Tests.m */; };
+		CF7402941C89B48600A6AF17 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7402931C89B48600A6AF17 /* __UITests.m */; };
+		CF7402A21C89B6E600A6AF17 /* IMG_5138.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CF7402A11C89B6E600A6AF17 /* IMG_5138.JPG */; };
+		CF7402A81C89C33400A6AF17 /* FirstCollectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7402A71C89C33400A6AF17 /* FirstCollectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7402851C89B48600A6AF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7402631C89B48600A6AF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF74026A1C89B48600A6AF17;
+			remoteInfo = "旅游";
+		};
+		CF7402901C89B48600A6AF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7402631C89B48600A6AF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF74026A1C89B48600A6AF17;
+			remoteInfo = "旅游";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF17799C1C8A7D460030E332 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CF17799D1C8A7D460030E332 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CF1779A21C8A96C70030E332 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		CF1779A31C8A96C70030E332 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		CF1779A51C8A9F160030E332 /* DestnationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestnationViewController.h; sourceTree = "<group>"; };
+		CF1779A61C8A9F160030E332 /* DestnationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestnationViewController.m; sourceTree = "<group>"; };
+		CF1779A81C8AA3D60030E332 /* FirstViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController2.h; sourceTree = "<group>"; };
+		CF1779A91C8AA3D60030E332 /* FirstViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController2.m; sourceTree = "<group>"; };
+		CF1779AB1C8AA5E90030E332 /* MyViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController2.h; sourceTree = "<group>"; };
+		CF1779AC1C8AA5E90030E332 /* MyViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController2.m; sourceTree = "<group>"; };
+		CF74026B1C89B48600A6AF17 /* 旅游.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "旅游.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF74026F1C89B48600A6AF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF7402711C89B48600A6AF17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF7402721C89B48600A6AF17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7402741C89B48600A6AF17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF7402751C89B48600A6AF17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF7402781C89B48600A6AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF74027A1C89B48600A6AF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF74027D1C89B48600A6AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF74027F1C89B48600A6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7402841C89B48600A6AF17 /* 旅游Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旅游Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7402881C89B48600A6AF17 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		CF74028A1C89B48600A6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF74028F1C89B48600A6AF17 /* 旅游UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旅游UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7402931C89B48600A6AF17 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		CF7402951C89B48600A6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7402A11C89B6E600A6AF17 /* IMG_5138.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_5138.JPG; path = ../../../Downloads/IMG_5138.JPG; sourceTree = "<group>"; };
+		CF7402A61C89C33400A6AF17 /* FirstCollectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCollectView.h; sourceTree = "<group>"; };
+		CF7402A71C89C33400A6AF17 /* FirstCollectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCollectView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7402681C89B48600A6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7402811C89B48600A6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF74028C1C89B48600A6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7402621C89B48600A6AF17 = {
+			isa = PBXGroup;
+			children = (
+				CF74026D1C89B48600A6AF17 /* 旅游 */,
+				CF7402921C89B48600A6AF17 /* 旅游UITests */,
+				CF74026C1C89B48600A6AF17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF74026C1C89B48600A6AF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF74026B1C89B48600A6AF17 /* 旅游.app */,
+				CF7402841C89B48600A6AF17 /* 旅游Tests.xctest */,
+				CF74028F1C89B48600A6AF17 /* 旅游UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF74026D1C89B48600A6AF17 /* 旅游 */ = {
+			isa = PBXGroup;
+			children = (
+				CF7402771C89B48600A6AF17 /* Main.storyboard */,
+				CF7402711C89B48600A6AF17 /* AppDelegate.h */,
+				CF7402721C89B48600A6AF17 /* AppDelegate.m */,
+				CF7402741C89B48600A6AF17 /* ViewController.h */,
+				CF7402751C89B48600A6AF17 /* ViewController.m */,
+				CF7402A61C89C33400A6AF17 /* FirstCollectView.h */,
+				CF7402A71C89C33400A6AF17 /* FirstCollectView.m */,
+				CF1779A81C8AA3D60030E332 /* FirstViewController2.h */,
+				CF1779A91C8AA3D60030E332 /* FirstViewController2.m */,
+				CF17799C1C8A7D460030E332 /* MyViewController.h */,
+				CF17799D1C8A7D460030E332 /* MyViewController.m */,
+				CF1779AB1C8AA5E90030E332 /* MyViewController2.h */,
+				CF1779AC1C8AA5E90030E332 /* MyViewController2.m */,
+				CF1779A21C8A96C70030E332 /* MyTableView.h */,
+				CF1779A31C8A96C70030E332 /* MyTableView.m */,
+				CF1779A51C8A9F160030E332 /* DestnationViewController.h */,
+				CF1779A61C8A9F160030E332 /* DestnationViewController.m */,
+				CF74027A1C89B48600A6AF17 /* Assets.xcassets */,
+				CF7402A11C89B6E600A6AF17 /* IMG_5138.JPG */,
+				CF74027C1C89B48600A6AF17 /* LaunchScreen.storyboard */,
+				CF74027F1C89B48600A6AF17 /* Info.plist */,
+				CF74026E1C89B48600A6AF17 /* Supporting Files */,
+				CF7402871C89B48600A6AF17 /* 旅游Tests */,
+			);
+			path = "旅游";
+			sourceTree = "<group>";
+		};
+		CF74026E1C89B48600A6AF17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF74026F1C89B48600A6AF17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF7402871C89B48600A6AF17 /* 旅游Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7402881C89B48600A6AF17 /* __Tests.m */,
+				CF74028A1C89B48600A6AF17 /* Info.plist */,
+			);
+			path = "旅游Tests";
+			sourceTree = SOURCE_ROOT;
+		};
+		CF7402921C89B48600A6AF17 /* 旅游UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7402931C89B48600A6AF17 /* __UITests.m */,
+				CF7402951C89B48600A6AF17 /* Info.plist */,
+			);
+			path = "旅游UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF74026A1C89B48600A6AF17 /* 旅游 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7402981C89B48600A6AF17 /* Build configuration list for PBXNativeTarget "旅游" */;
+			buildPhases = (
+				CF7402671C89B48600A6AF17 /* Sources */,
+				CF7402681C89B48600A6AF17 /* Frameworks */,
+				CF7402691C89B48600A6AF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旅游";
+			productName = "旅游";
+			productReference = CF74026B1C89B48600A6AF17 /* 旅游.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7402831C89B48600A6AF17 /* 旅游Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF74029B1C89B48600A6AF17 /* Build configuration list for PBXNativeTarget "旅游Tests" */;
+			buildPhases = (
+				CF7402801C89B48600A6AF17 /* Sources */,
+				CF7402811C89B48600A6AF17 /* Frameworks */,
+				CF7402821C89B48600A6AF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7402861C89B48600A6AF17 /* PBXTargetDependency */,
+			);
+			name = "旅游Tests";
+			productName = "旅游Tests";
+			productReference = CF7402841C89B48600A6AF17 /* 旅游Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF74028E1C89B48600A6AF17 /* 旅游UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF74029E1C89B48600A6AF17 /* Build configuration list for PBXNativeTarget "旅游UITests" */;
+			buildPhases = (
+				CF74028B1C89B48600A6AF17 /* Sources */,
+				CF74028C1C89B48600A6AF17 /* Frameworks */,
+				CF74028D1C89B48600A6AF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7402911C89B48600A6AF17 /* PBXTargetDependency */,
+			);
+			name = "旅游UITests";
+			productName = "旅游UITests";
+			productReference = CF74028F1C89B48600A6AF17 /* 旅游UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7402631C89B48600A6AF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF74026A1C89B48600A6AF17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF7402831C89B48600A6AF17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF74026A1C89B48600A6AF17;
+					};
+					CF74028E1C89B48600A6AF17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF74026A1C89B48600A6AF17;
+					};
+				};
+			};
+			buildConfigurationList = CF7402661C89B48600A6AF17 /* Build configuration list for PBXProject "旅游" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7402621C89B48600A6AF17;
+			productRefGroup = CF74026C1C89B48600A6AF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF74026A1C89B48600A6AF17 /* 旅游 */,
+				CF7402831C89B48600A6AF17 /* 旅游Tests */,
+				CF74028E1C89B48600A6AF17 /* 旅游UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7402691C89B48600A6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7402A21C89B6E600A6AF17 /* IMG_5138.JPG in Resources */,
+				CF74027E1C89B48600A6AF17 /* LaunchScreen.storyboard in Resources */,
+				CF74027B1C89B48600A6AF17 /* Assets.xcassets in Resources */,
+				CF7402791C89B48600A6AF17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7402821C89B48600A6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF74028D1C89B48600A6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7402671C89B48600A6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7402A81C89C33400A6AF17 /* FirstCollectView.m in Sources */,
+				CF7402761C89B48600A6AF17 /* ViewController.m in Sources */,
+				CF1779AA1C8AA3D60030E332 /* FirstViewController2.m in Sources */,
+				CF7402731C89B48600A6AF17 /* AppDelegate.m in Sources */,
+				CF1779A41C8A96C70030E332 /* MyTableView.m in Sources */,
+				CF1779A71C8A9F160030E332 /* DestnationViewController.m in Sources */,
+				CF7402701C89B48600A6AF17 /* main.m in Sources */,
+				CF17799E1C8A7D460030E332 /* MyViewController.m in Sources */,
+				CF1779AD1C8AA5E90030E332 /* MyViewController2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7402801C89B48600A6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7402891C89B48600A6AF17 /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF74028B1C89B48600A6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7402941C89B48600A6AF17 /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7402861C89B48600A6AF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF74026A1C89B48600A6AF17 /* 旅游 */;
+			targetProxy = CF7402851C89B48600A6AF17 /* PBXContainerItemProxy */;
+		};
+		CF7402911C89B48600A6AF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF74026A1C89B48600A6AF17 /* 旅游 */;
+			targetProxy = CF7402901C89B48600A6AF17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7402771C89B48600A6AF17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7402781C89B48600A6AF17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF74027C1C89B48600A6AF17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF74027D1C89B48600A6AF17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7402961C89B48600A6AF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF7402971C89B48600A6AF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7402991C89B48600A6AF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旅游/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF74029A1C89B48600A6AF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旅游/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF74029C1C89B48600A6AF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "旅游Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旅游.app/旅游";
+			};
+			name = Debug;
+		};
+		CF74029D1C89B48600A6AF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "旅游Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旅游.app/旅游";
+			};
+			name = Release;
+		};
+		CF74029F1C89B48600A6AF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "旅游UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "旅游";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF7402A01C89B48600A6AF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "旅游UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "旅游";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7402661C89B48600A6AF17 /* Build configuration list for PBXProject "旅游" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7402961C89B48600A6AF17 /* Debug */,
+				CF7402971C89B48600A6AF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7402981C89B48600A6AF17 /* Build configuration list for PBXNativeTarget "旅游" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7402991C89B48600A6AF17 /* Debug */,
+				CF74029A1C89B48600A6AF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF74029B1C89B48600A6AF17 /* Build configuration list for PBXNativeTarget "旅游Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF74029C1C89B48600A6AF17 /* Debug */,
+				CF74029D1C89B48600A6AF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF74029E1C89B48600A6AF17 /* Build configuration list for PBXNativeTarget "旅游UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF74029F1C89B48600A6AF17 /* Debug */,
+				CF7402A01C89B48600A6AF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7402631C89B48600A6AF17 /* Project object */;
+}
